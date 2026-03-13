@@ -9,22 +9,27 @@
 // 4 - Sair
 
 
-let opcao = 3;
+// let opcao = 3;
 
-switch (opcao) {
-    case 1:
-        console.log("Ver perfil...");
-        break;
-    case 2:
-        console.log("Editar perfil...");
-        break;
-    case 3:
-        console.log("Excluir perfil...");
-        break;
-    case 4:
-        console.log("Sair...");
-        break;
-    default:
-        console.log("Opção inválida...");
+// switch (opcao) {
+//     case 1:
+//         console.log("Ver perfil...");
+//         break;
+//     case 2:
+//         console.log("Editar perfil...");
+//         break;
+//     case 3:
+//         console.log("Excluir perfil...");
+//         break;
+//     case 4:
+//         console.log("Sair...");
+//         break;
+//     default:
+//         console.log("Opção inválida...");
 
+// }
+
+
+for(let i = 1; i <=5; i++){
+    console.log(`Repetição de número: ${i}`);
 }
