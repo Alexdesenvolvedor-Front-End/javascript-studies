@@ -13,7 +13,7 @@ let n1 = prompt("Digite um número: ")
 n1 = parseInt(n1);
 
 while (n1 !== 0) {
-    soma += n1;
+    soma = soma + n1;
 
     n1 = prompt("Digite outro número: ");
     n1 = parseInt(n1);
